@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 import { Metadata } from 'next';
 import { RenderPage, WidgetExecutionError, initRendering, pageMetadata } from '@progress/sitefinity-nextjs-sdk';
 import { widgetRegistry } from '../widget-registry';
